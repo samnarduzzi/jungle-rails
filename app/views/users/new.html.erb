@@ -1,4 +1,6 @@
-<h1>Signup!</h1>
+<header class="signup">
+  <h1>Signup</h1>
+</header>
 
 <%= form_for :user, url: '/users' do |f| %>
 
@@ -9,3 +11,8 @@
   Password Confirmation: <%= f.password_field :password_confirmation %>
   <%= f.submit "Submit" %>
 <% end %>
+
+<div class="login-signup">
+  <p>Already have an account? <%= link_to 'Login', '/login', class: "login-btn" %></p>
+</div>
+
