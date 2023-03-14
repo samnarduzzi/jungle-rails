@@ -5,7 +5,7 @@ RSpec.describe Product, type: :model do
     let(:category) { Category.create(name: "Succulents")}
     let(:product) { Product.create(name: "String of Pearls", price_cents: 8500, quantity: 120, category: category)}
     
-    it "should be save a valid product" do 
+    it "should save a valid product" do 
       expect(product).to be_valid
     end
 
