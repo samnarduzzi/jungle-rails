@@ -2,7 +2,7 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
-# Features
+## Features
 
 - View the "About us" page to read about the store and plants
 - Login as Admin to manage and/or add to the store's dashboard, categories or products 
@@ -11,6 +11,18 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 - Add any items to you cart and manage in the "Cart" section of the store
 - Visit individual product's page with all of its details by clicking on the item
 - Place an order using the stripe API and receive an confirmation receipt with details of your order
+
+## Home Page
+![home](https://github.com/samnarduzzi/jungle-rails/blob/master/public/images/home.png?raw=true)
+
+## Admin Dashbaord Page
+![admin-dash](https://github.com/samnarduzzi/jungle-rails/blob/master/public/images/admin-dash.png?raw=true)
+
+## Plants Page
+![plants](https://github.com/samnarduzzi/jungle-rails/blob/master/public/images/plants.png?raw=true)
+
+## Cart Page
+![cart](https://github.com/samnarduzzi/jungle-rails/blob/master/public/images/cart.png?raw=true)
 
 ## Setup
 
