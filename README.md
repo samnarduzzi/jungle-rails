@@ -2,6 +2,16 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+# Features
+
+- View the "About us" page to read about the store and plants
+- Login as Admin to manage and/or add to the store's dashboard, categories or products 
+- Sign up to create an accountn or Login with your username and password if you already have one
+- View the store's available and sold out products on the home page
+- Add any items to you cart and manage in the "Cart" section of the store
+- Visit individual product's page with all of its details by clicking on the item
+- Place an order using the stripe API and receive an confirmation receipt with details of your order
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -12,6 +22,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+9. Go to <http://localhost:3000/> in your browser
 
 ## Database
 
@@ -29,3 +40,9 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- bcrypt
+- cypress-rails
+- database_cleaner-active_record
+- sass-rails
+- webpacker
+- and others...
